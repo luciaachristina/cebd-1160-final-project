@@ -68,12 +68,15 @@ Bradley Efron, Trevor Hastie, Iain Johnstone and Robert Tibshirani (2004) "Least
 
 ### Methods
 
-1. Take a look at the dataset features </br>
-2. Visualize the data with seaborn pairplot </br>
-3. Identify potential correlation (heatmap and scatter plot) </br>
-4. Split the data into train and test sets </br>
-5. Use a linear regression model (GradientBoostingRegression) </br>
-6. Identify the RMSE </br>
+**1.** Take a look at the dataset features </br>
+**2.** Visualize the data with seaborn pairplot </br>
+![heatmap](./figures/heatmap_visualization.png) </br>
+</br>
+![scatterplot](./figures/multiplot_scatter_bp_size.png) </br>
+**3.** Identify potential correlation (heatmap and scatter plot) </br>
+**4.** Split the data into train and test sets </br>
+**5.** Use a linear regression model (GradientBoostingRegression) </br>
+**6.** Identify the RMSE </br>
 
 The pseudocode for the method used can be found [HERE](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingRegressor.html). It essentially boosts the regression to get a more accurate prediction.
 The data itself was already mean centered and scaled. We then only used the data relevant to solving the problem stated in the beginning (body mass index + diabetes progression).
