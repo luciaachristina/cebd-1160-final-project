@@ -27,7 +27,7 @@ Can the progression of diabetes be predicted by body mass index?
 With the NCSU diabetes sklearn dataset, we can attempt to predict the progression of diabetes based on a variety of factors.
 Given that this not a classification issue, we will attempt to predict the progression of diabetes with a linear regression model.
 Based on preliminary tests, there seems to be a higher correlation between BMI and the progression of diabetes.
-With the performance of the chosen regressor (GradientBoostingRegression), we found that the model performs rather well. However, there is promise for more sophisticated methods to show more accurate results.
+With the performance of the chosen regressor (GradientBoostingRegression), we found that the model's performance isn't entirely clear. There is, however, promise for more sophisticated methods to show more accurate results.
 
 ### Introduction
 
