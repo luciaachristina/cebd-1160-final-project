@@ -76,7 +76,7 @@ Bradley Efron, Trevor Hastie, Iain Johnstone and Robert Tibshirani (2004) "Least
 **3.** Identify potential correlation (heatmap and scatter plot) </br>
 **4.** Split the data into train and test sets </br>
 **5.** Use a linear regression model (GradientBoostingRegression) </br>
-**6.** Identify the RMSE </br>
+**6.** Identify the RMSE & R^2</br>
 
 The pseudocode for the method used can be found [HERE](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingRegressor.html). It essentially boosts the regression to get a more accurate prediction.
 The data itself was already mean centered and scaled. We then only used the data relevant to solving the problem stated in the beginning (body mass index + diabetes progression).
@@ -89,7 +89,7 @@ The performance of the chosen regressor, Gradient Boosting Regressor, was an R^2
 
 ![performance figure](./figures/real_vs_predict.png)
 
-METRICS FROM A GRADIENT BOOSTING REGRESSION (GBR) </br>
+**METRICS FROM A GRADIENT BOOSTING REGRESSION (GBR)** </br>
 </br>
 GBR - MAE error(avg abs residual): 56.05642112710523 </br>
 GBR - MSE error: 4605.90724557536 </br>
